@@ -1,7 +1,7 @@
 node {
     stage "Checkout"
-        Checkout()
-
+      checkout scm
+      
     stage "Build"
         def image = docker.build()
 }
