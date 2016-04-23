@@ -1,4 +1,6 @@
 node {
-    stage "Build"
-        def image = docker.build("test")
+  stage "Checkout"
+    checkout scm
+  stage "Build"
+    def image = docker.build("test")
 }
