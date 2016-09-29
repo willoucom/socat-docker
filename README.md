@@ -1,4 +1,5 @@
 # socat-docker
+[![](https://images.microbadger.com/badges/image/willoucom/socat-docker.svg)](https://microbadger.com/images/willoucom/socat-docker "Get your own image badge on microbadger.com")
 
 Basic usage of socat for DooD (Docker out of Docker)
 
@@ -11,3 +12,4 @@ Run container
 Link another container
 
 ```docker run -l socat_docker:socat myimage```
+
